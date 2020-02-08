@@ -36,6 +36,10 @@ eureka:
   instance:
     prefer-ip-address: true
   
+feign:
+  hystrix:
+    enabled: true
+
 ---
 #server:
   #port: 8000
@@ -69,3 +73,6 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/
   instance:
     prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true
